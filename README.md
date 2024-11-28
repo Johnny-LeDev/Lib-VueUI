@@ -1,14 +1,14 @@
 # Lib-VueUI
 
-**Lib-VueUI** is a lightweight and flexible library for integrating Vue.js-based UI components in FiveM projects. It simplifies the management of custom user interfaces, dynamically loads UI elements, and handles user input events. Designed for FiveM servers, it allows seamless integration with Lua and enhances the in-game UI experience.
+**Lib-VueUI** is an elegant and lightweight library designed to facilitate the integration of Vue.js-driven user interface components into FiveM projects. It streamlines the management of custom user interfaces by dynamically loading UI elements and handling user input events. Crafted specifically for FiveM servers, this library enables seamless interaction with Lua and enhances the overall in-game user interface experience.
 
-## Features
+## Key Features
 
-- **Dynamic UI Component Loading**: Automatically load UI components from a configuration file and render them.
-- **Vue.js Powered**: Built with Vue.js to provide reactivity and simplicity.
-- **Custom UI Elements**: Easily add new UI components with their own styles and behavior.
-- **Focus Management**: Supports handling NUI focus, controlling UI visibility and interaction.
-- **Event Handling**: Easily communicate between JavaScript (NUI) and Lua to trigger events on both sides.
+- **Dynamic UI Component Loading**: Effortlessly load and render UI components based on a configurable file structure.
+- **Vue.js Integration**: Built upon the Vue.js framework, it leverages its reactive data-binding and declarative rendering for enhanced simplicity and flexibility.
+- **Customizable UI Elements**: Easily extend and tailor the user interface with fully customizable components, each with their own unique style and behavior.
+- **Focus Management**: Provides robust control over NUI focus, enabling fine-grained visibility and interaction management for UI elements.
+- **Bi-directional Event Handling**: Simplifies communication between JavaScript (NUI) and Lua, allowing the triggering of events on both sides for seamless integration.
 
 ## Installation
 
