@@ -1,6 +1,6 @@
 # Lib-VueUI
 
-**Lib-VueUI** is an elegant and lightweight library designed to facilitate the integration of Vue.js-driven user interface components into FiveM projects. It streamlines the management of custom user interfaces by dynamically loading UI elements and handling user input events. Crafted specifically for FiveM servers, this library enables seamless interaction with Lua and enhances the overall in-game user interface experience.
+**Lib-VueUI** is an elegant and lightweight library designed to facilitate the integration of Vue.js-driven user interface components into FiveM projects. 
 
 ## Key Features
 
