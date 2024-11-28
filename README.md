@@ -23,15 +23,13 @@
 
 3. **Configure your UI components** in the `uiConfig` object to define which elements you want to load.
 
-4. **Initialize the `UIManager`** to manage and render the UI components in the browser.
-
 ## Usage
 
 ### Example of configuring and using `Lib-VueUI`
 
 1. **Configuration (index.js)**: Define which UI components you want to load.
 
-```js index.js
+```js
 const uiConfig = {
     uiFiles: [
         { name: "example", repertory: "menu/examplemenu/" },
