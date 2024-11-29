@@ -11,6 +11,7 @@
 const uiConfig = {
     uiFiles: [
         { name: "example", repertory: "menu/examplemenu" },
+        // { name: "example2", repertory: "menu/examplemenu2" },
         // { name: "hud", repertory: "hud/hud/" },
         // { name: "notification", repertory: "notification/notification/" }
     ]
