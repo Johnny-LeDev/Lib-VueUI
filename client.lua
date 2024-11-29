@@ -7,14 +7,16 @@
 ---- File: [client.lua]
 ----
 
+local Menu = "example";
+
 RegisterCommand("openExempleMenu", function(source, args, rawCommand)
     SetNuiFocus(true, true)
     SendNUIMessage({
-        element = "example",
-        action = 'show'
+        element = Menu,
+        action = 'showFrame'
     })
 end)
 
-RegisterNUICallback('closeExempleMenu', function(data, cb)
+RegisterNUICallback(Menu..'/closeMenu', function(data, cb)
     SetNuiFocus(false, false)
 end)

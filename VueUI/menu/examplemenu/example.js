@@ -7,20 +7,11 @@
 //// File: [example.js]
 ////
 
-window.addEventListener('message', function(event) {
-    if (event.data.action === 'show' && event.data.element === 'example') {
-        const menu = new ExampleMenu();
-        menu.show();
-    } else if (event.data.action === 'hide' && event.data.element === 'example') {
-        const menu = new ExampleMenu();
-        menu.hide();
-    }
-});
-
 export default class ExampleMenu {
     constructor() {
         this.name = 'example';
         this.type = 'menu'; 
+        this.uiManager = window.uiManager;
     }
 
     render() {
@@ -35,7 +26,7 @@ export default class ExampleMenu {
         menuDiv.style.display = 'none';
         menuDiv.querySelector("#closeMenu").addEventListener('click', () => {
             this.hide();
-            $.post("https://lib/closeExempleMenu", JSON.stringify({}));
+            this.uiManager.sendNUIEvent(this.name, 'closeMenu');
         });
         return menuDiv;
     }
