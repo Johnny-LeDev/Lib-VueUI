@@ -14,7 +14,7 @@
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/Lib-VueUI.git
+    git clone https://github.com/Johnny-LeDev/Lib-VueUI.git
     ```
 
 2. **Add the files to your FiveM project**:
